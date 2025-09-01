@@ -60,13 +60,14 @@ O projeto foi desenvolvido como parte de um desafio de fundamentos em .NET da Tr
 ## 📁 Estrutura do Projeto
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+```bash
 trilha-net-fundamentos-desafio/
 │
 ├── DesafioFundamentos.csproj         ← Arquivo do projeto (.NET 6)
 ├── Program.cs                        ← Ponto de entrada (Main)
 └── Models/
     └── Estacionamento.cs             ← Lógica principal do estacionamento
+````
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
