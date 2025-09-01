@@ -34,20 +34,54 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 4. Encerrar
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Solução
+## ✅ Resolução do Desafio
 
-## # 🚗 Sistema de Estacionamento em .NET 6
+Este projeto foi desenvolvido como parte do desafio da Trilha de Fundamentos .NET da DIO, com o objetivo de aplicar na prática conceitos fundamentais de C# e .NET, como estrutura de classes, manipulação de listas, entrada e saída de dados no console e lógica de negócio.
 
-Este é um projeto de console desenvolvido em C# com .NET 6 que simula um **sistema de estacionamento**. Ele permite:
+## 🚗 Sistema de Estacionamento - .NET 6
 
-- Cadastrar veículos que estão sendo estacionados.
-- Remover veículos e calcular o valor a ser pago.
-- Listar todos os veículos atualmente estacionados.
+Trata-se de uma aplicação de console que simula o funcionamento básico de um sistema de estacionamento rotativo, com funcionalidades para registrar, remover e listar veículos, além de calcular o valor a ser pago pelo tempo de permanência.
 
-O projeto foi desenvolvido como parte de um desafio de fundamentos em .NET da Trilha DIO.
+## 🧩 O que foi resolvido e implementado
 
----
+Durante o desenvolvimento, foram implementadas as seguintes funcionalidades:
 
+## 🔧 Funcionalidades Implementadas
+
+Cadastrar Veículo
+
+O usuário informa a placa do veículo.
+
+O sistema adiciona o veículo à lista de veículos estacionados.
+
+Remover Veículo
+
+O usuário informa a placa e o tempo de permanência em horas.
+
+O sistema calcula o valor total a ser pago com base no preço inicial e no preço por hora.
+
+O veículo é removido da lista.
+
+Listar Veículos
+
+Exibe todas as placas dos veículos atualmente estacionados.
+
+Encerrar Programa
+
+Finaliza a execução do sistema.
+
+## 💡 Regras de Negócio Atendidas
+
+O sistema utiliza preço fixo inicial e valor por hora, definidos pelo usuário no início do programa.
+
+O valor total é calculado com a fórmula:
+
+Valor Total = Preço Inicial + (Preço por Hora × Quantidade de Horas)
+
+
+O sistema impede que veículos não cadastrados sejam removidos, exibindo uma mensagem apropriada.
+
+As placas são armazenadas e comparadas sem diferenciação entre maiúsculas e minúsculas.
 ## 🛠️ Tecnologias Utilizadas
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
@@ -93,28 +127,6 @@ Execute o projeto com:
 dotnet run
 ````
 
-## 📌 Funcionalidades
-## 1. Cadastrar Veículo
-
-O usuário informa a placa do veículo.
-
-O veículo é adicionado à lista de veículos estacionados.
-
-## 2. Remover Veículo
-
-O usuário informa a placa e a quantidade de horas que o veículo ficou estacionado.
-
-O sistema calcula o valor total com base nos preços informados no início do programa.
-
-O veículo é removido da lista.
-
-## 3. Listar Veículos
-
-Exibe todos os veículos atualmente estacionados no sistema.
-
-## 4. Encerrar
-
-Finaliza a execução do programa.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 📷 Exemplo de Uso
 <img width="555" height="336" alt="image" src="https://github.com/user-attachments/assets/033fe126-d01c-42e4-a17d-454d397b5189" />
