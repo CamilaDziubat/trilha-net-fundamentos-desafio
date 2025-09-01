@@ -89,7 +89,9 @@ cd trilha-net-fundamentos-desafio
 
 Execute o projeto com:
 
+```bash
 dotnet run
+````
 
 ## 📌 Funcionalidades
 ## 1. Cadastrar Veículo
