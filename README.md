@@ -32,7 +32,92 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 2. Remover veículo
 3. Listar veículos
 4. Encerrar
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## # 🚗 Sistema de Estacionamento em .NET 6
+
+Este é um projeto de console desenvolvido em C# com .NET 6 que simula um **sistema de estacionamento**. Ele permite:
+
+- Cadastrar veículos que estão sendo estacionados.
+- Remover veículos e calcular o valor a ser pago.
+- Listar todos os veículos atualmente estacionados.
+
+O projeto foi desenvolvido como parte de um desafio de fundamentos em .NET da Trilha DIO.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- C#
+- Console App
+
+---
+
+## 📁 Estrutura do Projeto
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trilha-net-fundamentos-desafio/
+│
+├── DesafioFundamentos.csproj         ← Arquivo do projeto (.NET 6)
+├── Program.cs                        ← Ponto de entrada (Main)
+└── Models/
+    └── Estacionamento.cs             ← Lógica principal do estacionamento
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Certifique-se de ter o **.NET 6 SDK instalado**.  
+   Verifique com o comando:
+
+   ```bash
+   dotnet --version
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Clone ou baixe este repositório.
+
+No terminal, navegue até a pasta onde está o arquivo .csproj:
+
+cd trilha-net-fundamentos-desafio
+
+
+Execute o projeto com:
+
+dotnet run
+
+## 📌 Funcionalidades
+## 1. Cadastrar Veículo
+
+O usuário informa a placa do veículo.
+
+O veículo é adicionado à lista de veículos estacionados.
+
+## 2. Remover Veículo
+
+O usuário informa a placa e a quantidade de horas que o veículo ficou estacionado.
+
+O sistema calcula o valor total com base nos preços informados no início do programa.
+
+O veículo é removido da lista.
+
+## 3. Listar Veículos
+
+Exibe todos os veículos atualmente estacionados no sistema.
+
+## 4. Encerrar
+
+Finaliza a execução do programa.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📷 Exemplo de Uso
+<img width="555" height="336" alt="image" src="https://github.com/user-attachments/assets/033fe126-d01c-42e4-a17d-454d397b5189" />
+
+
+
+
+
