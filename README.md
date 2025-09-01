@@ -48,13 +48,13 @@ Durante o desenvolvimento, foram implementadas as seguintes funcionalidades:
 
 ## 🔧 Funcionalidades Implementadas
 
-Cadastrar Veículo
+## 1.Cadastrar Veículo
 
 O usuário informa a placa do veículo.
 
 O sistema adiciona o veículo à lista de veículos estacionados.
 
-Remover Veículo
+## 2.Remover Veículo
 
 O usuário informa a placa e o tempo de permanência em horas.
 
@@ -62,11 +62,11 @@ O sistema calcula o valor total a ser pago com base no preço inicial e no preç
 
 O veículo é removido da lista.
 
-Listar Veículos
+## 3.Listar Veículos
 
 Exibe todas as placas dos veículos atualmente estacionados.
 
-Encerrar Programa
+## 4.Encerrar Programa
 
 Finaliza a execução do sistema.
 
